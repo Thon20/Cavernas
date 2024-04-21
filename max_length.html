@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2ffc56b6d85256714ab05c621787730b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2ffc56b6d85256714ab05c621787730b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2ffc56b6d85256714ab05c621787730b = L.map(
+                "map_2ffc56b6d85256714ab05c621787730b",
+                {
+                    center: [51.359441, 23.660791],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5d9791b40028a942d8ca37e0072ee286 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_5d9791b40028a942d8ca37e0072ee286.addTo(map_2ffc56b6d85256714ab05c621787730b);
+        
+    
+            var marker_01e6752f3d6b921884474d68f958973f = L.marker(
+                [48.7349, 25.9737],
+                {}
+            ).addTo(map_2ffc56b6d85256714ab05c621787730b);
+        
+    
+        var popup_4774275e85460e509452df0cd36e5263 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1717d395a78116a824c9141d4c6468a4 = $(`<div id="html_1717d395a78116a824c9141d4c6468a4" style="width: 100.0%; height: 100.0%;">         <h4>Name: Optymistychna Cave</h4>         <h5>Country: Ucrânia</h5>         <h5>Length: 264576.0</h5>         <h5>Vertical Depth: 20.0</h5>         <h6>         Coordinates:         <code>             Point(25.9737 48.7349)         </code>         </h6>         </div>`)[0];
+                popup_4774275e85460e509452df0cd36e5263.setContent(html_1717d395a78116a824c9141d4c6468a4);
+            
+        
+
+        marker_01e6752f3d6b921884474d68f958973f.bindPopup(popup_4774275e85460e509452df0cd36e5263)
+        ;
+
+        
+    
+    
+            var marker_397e3869432f65124be5a2b4cc6fc31b = L.marker(
+                [48.4667, 20.5],
+                {}
+            ).addTo(map_2ffc56b6d85256714ab05c621787730b);
+        
+    
+        var popup_9fd360d3bd8261a63bf3124615153ca8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45348f2dbd246ce9e6cb09c6bb5f2d35 = $(`<div id="html_45348f2dbd246ce9e6cb09c6bb5f2d35" style="width: 100.0%; height: 100.0%;">         <h4>Name: Baradla cave</h4>         <h5>Country: Eslováquia</h5>         <h5>Length: 25500.0</h5>         <h5>Vertical Depth: None</h5>         <h6>         Coordinates:         <code>             Point(20.5 48.4667)         </code>         </h6>         </div>`)[0];
+                popup_9fd360d3bd8261a63bf3124615153ca8.setContent(html_45348f2dbd246ce9e6cb09c6bb5f2d35);
+            
+        
+
+        marker_397e3869432f65124be5a2b4cc6fc31b.bindPopup(popup_9fd360d3bd8261a63bf3124615153ca8)
+        ;
+
+        
+    
+    
+            var marker_bd8211a4715668196cc8b733d694c51e = L.marker(
+                [48.4667, 20.5],
+                {}
+            ).addTo(map_2ffc56b6d85256714ab05c621787730b);
+        
+    
+        var popup_2669d1d68396dd41d7444652ea219b6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_049435b1386c989f777299f02d63b6ce = $(`<div id="html_049435b1386c989f777299f02d63b6ce" style="width: 100.0%; height: 100.0%;">         <h4>Name: Baradla cave</h4>         <h5>Country: Hungria</h5>         <h5>Length: 25500.0</h5>         <h5>Vertical Depth: None</h5>         <h6>         Coordinates:         <code>             Point(20.5 48.4667)         </code>         </h6>         </div>`)[0];
+                popup_2669d1d68396dd41d7444652ea219b6c.setContent(html_049435b1386c989f777299f02d63b6ce);
+            
+        
+
+        marker_bd8211a4715668196cc8b733d694c51e.bindPopup(popup_2669d1d68396dd41d7444652ea219b6c)
+        ;
+
+        
+    
+    
+            var marker_24f4ce5bf33f188bb7810cc181d80c8e = L.marker(
+                [49.24, 19.923055555],
+                {}
+            ).addTo(map_2ffc56b6d85256714ab05c621787730b);
+        
+    
+        var popup_ff73d7eb3aa065807796790d977f5676 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_006d5f1d30b5a3c9fc80fd4f50389720 = $(`<div id="html_006d5f1d30b5a3c9fc80fd4f50389720" style="width: 100.0%; height: 100.0%;">         <h4>Name: Jaskinia Wielka Śnieżna</h4>         <h5>Country: Polónia</h5>         <h5>Length: 23753.0</h5>         <h5>Vertical Depth: None</h5>         <h6>         Coordinates:         <code>             Point(19.923055555 49.24)         </code>         </h6>         </div>`)[0];
+                popup_ff73d7eb3aa065807796790d977f5676.setContent(html_006d5f1d30b5a3c9fc80fd4f50389720);
+            
+        
+
+        marker_24f4ce5bf33f188bb7810cc181d80c8e.bindPopup(popup_ff73d7eb3aa065807796790d977f5676)
+        ;
+
+        
+    
+    
+            var marker_1f39db856da8e1717bff9bf0ab0e698f = L.marker(
+                [47.6994, 12.9831],
+                {}
+            ).addTo(map_2ffc56b6d85256714ab05c621787730b);
+        
+    
+        var popup_8d05ba226d4ffabb7cc544da9b8864a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50cc23cb6bd06b46732ef2188940a46a = $(`<div id="html_50cc23cb6bd06b46732ef2188940a46a" style="width: 100.0%; height: 100.0%;">         <h4>Name: Riesending-Schachthöhle</h4>         <h5>Country: Alemanha</h5>         <h5>Length: 19500.0</h5>         <h5>Vertical Depth: None</h5>         <h6>         Coordinates:         <code>             Point(12.9831 47.6994)         </code>         </h6>         </div>`)[0];
+                popup_8d05ba226d4ffabb7cc544da9b8864a1.setContent(html_50cc23cb6bd06b46732ef2188940a46a);
+            
+        
+
+        marker_1f39db856da8e1717bff9bf0ab0e698f.bindPopup(popup_8d05ba226d4ffabb7cc544da9b8864a1)
+        ;
+
+        
+    
+    
+            var marker_837ef78e7feb8874d8b02d49d5c65d11 = L.marker(
+                [48.925, 19.638888888],
+                {}
+            ).addTo(map_2ffc56b6d85256714ab05c621787730b);
+        
+    
+        var popup_2ef9f376fd012315b959216343b1f466 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22e070cf6dec091298e5507e04e4c6d2 = $(`<div id="html_22e070cf6dec091298e5507e04e4c6d2" style="width: 100.0%; height: 100.0%;">         <h4>Name: Jaskyna mrtvych netopierov</h4>         <h5>Country: Eslováquia</h5>         <h5>Length: 19260.0</h5>         <h5>Vertical Depth: None</h5>         <h6>         Coordinates:         <code>             Point(19.638888888 48.925)         </code>         </h6>         </div>`)[0];
+                popup_2ef9f376fd012315b959216343b1f466.setContent(html_22e070cf6dec091298e5507e04e4c6d2);
+            
+        
+
+        marker_837ef78e7feb8874d8b02d49d5c65d11.bindPopup(popup_2ef9f376fd012315b959216343b1f466)
+        ;
+
+        
+    
+    
+            var marker_94500b1499e954cc8f565b9add79f384 = L.marker(
+                [42.495833333, 23.195833333],
+                {}
+            ).addTo(map_2ffc56b6d85256714ab05c621787730b);
+        
+    
+        var popup_d27ff698053075ddba86e9d91598f64c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6da56004e50859c16a14a861f7c0930f = $(`<div id="html_6da56004e50859c16a14a861f7c0930f" style="width: 100.0%; height: 100.0%;">         <h4>Name: Duhlata</h4>         <h5>Country: Bulgária</h5>         <h5>Length: 18200.0</h5>         <h5>Vertical Depth: 53.0</h5>         <h6>         Coordinates:         <code>             Point(23.195833333 42.495833333)         </code>         </h6>         </div>`)[0];
+                popup_d27ff698053075ddba86e9d91598f64c.setContent(html_6da56004e50859c16a14a861f7c0930f);
+            
+        
+
+        marker_94500b1499e954cc8f565b9add79f384.bindPopup(popup_d27ff698053075ddba86e9d91598f64c)
+        ;
+
+        
+    
+    
+            var marker_bd51a75a0df421f55c44c0c5158ab43c = L.marker(
+                [44.0293, 21.9627],
+                {}
+            ).addTo(map_2ffc56b6d85256714ab05c621787730b);
+        
+    
+        var popup_313717d55de55501e8f4f750d8cf47f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b712f8f83662dde3b44e46d856b4067 = $(`<div id="html_8b712f8f83662dde3b44e46d856b4067" style="width: 100.0%; height: 100.0%;">         <h4>Name: Lazar's Cave</h4>         <h5>Country: Sérvia</h5>         <h5>Length: 16041.0</h5>         <h5>Vertical Depth: None</h5>         <h6>         Coordinates:         <code>             Point(21.9627 44.0293)         </code>         </h6>         </div>`)[0];
+                popup_313717d55de55501e8f4f750d8cf47f4.setContent(html_8b712f8f83662dde3b44e46d856b4067);
+            
+        
+
+        marker_bd51a75a0df421f55c44c0c5158ab43c.bindPopup(popup_313717d55de55501e8f4f750d8cf47f4)
+        ;
+
+        
+    
+    
+            var marker_56a3ddca5f0da21db589ac78e9239450 = L.marker(
+                [36.638011, 22.380029],
+                {}
+            ).addTo(map_2ffc56b6d85256714ab05c621787730b);
+        
+    
+        var popup_beaa9971b5f6e374733330c68548c17c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9bbe328a0bb12e5bc3ba7609bb681b7 = $(`<div id="html_e9bbe328a0bb12e5bc3ba7609bb681b7" style="width: 100.0%; height: 100.0%;">         <h4>Name: Diros cave</h4>         <h5>Country: Grécia</h5>         <h5>Length: 15400.0</h5>         <h5>Vertical Depth: None</h5>         <h6>         Coordinates:         <code>             Point(22.380029 36.638011)         </code>         </h6>         </div>`)[0];
+                popup_beaa9971b5f6e374733330c68548c17c.setContent(html_e9bbe328a0bb12e5bc3ba7609bb681b7);
+            
+        
+
+        marker_56a3ddca5f0da21db589ac78e9239450.bindPopup(popup_beaa9971b5f6e374733330c68548c17c)
+        ;
+
+        
+    
+    
+            var marker_8e187d52ca3ae9adcdde9f9ef6e8be17 = L.marker(
+                [43.5899, 25.9603],
+                {}
+            ).addTo(map_2ffc56b6d85256714ab05c621787730b);
+        
+    
+        var popup_0fbf2a75e52b0cc81c230681aba2245d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de1dc742a8197e2f86a7e16392aa1a35 = $(`<div id="html_de1dc742a8197e2f86a7e16392aa1a35" style="width: 100.0%; height: 100.0%;">         <h4>Name: Orlova Chuka</h4>         <h5>Country: Bulgária</h5>         <h5>Length: 13437.0</h5>         <h5>Vertical Depth: None</h5>         <h6>         Coordinates:         <code>             Point(25.9603 43.5899)         </code>         </h6>         </div>`)[0];
+                popup_0fbf2a75e52b0cc81c230681aba2245d.setContent(html_de1dc742a8197e2f86a7e16392aa1a35);
+            
+        
+
+        marker_8e187d52ca3ae9adcdde9f9ef6e8be17.bindPopup(popup_0fbf2a75e52b0cc81c230681aba2245d)
+        ;
+
+        
+    
+</script>
+</html>
