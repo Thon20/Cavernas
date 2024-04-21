@@ -15,5 +15,8 @@ SELECT DISTINCT ?itemLabel ?coordinate_location ?countryLabel ?temperature ?vert
 }
 ORDER BY ?itemLabel
 ```
+## Cavernas no Brasil
+![Cavernas no Brasil](mapa_brasil.png)
+
 ## Cavernas mais profundas
 ![Cavernas mais profundas](mapa.png)
